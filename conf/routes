@@ -4,7 +4,7 @@
 
 # An example controller showing a sample home page
 
-GET     /                           controllers.HomeController.index
+GET     /                          controllers.HomeController.index
 
 GET     /BMI                        controllers.HomeController.BMI
 
@@ -17,6 +17,8 @@ GET     /Breakfast                   controllers.HomeController.Breakfast
 GET     /Lunch                     controllers.HomeController.Lunch
 
 GET     /Dinner                    controllers.HomeController.Dinner
+
+GET    /Products                   controllers.HomeController.Products
 
 
 

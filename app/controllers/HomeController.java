@@ -50,7 +50,10 @@ public class HomeController extends Controller {
 
     }
 
+     public Result Products() {
+        return ok(Products.render("Hello World"));
 
+    }
 
 
 
